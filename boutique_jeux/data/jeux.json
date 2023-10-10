@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "titre": "L'île des chats",
+        "description": [
+            "Citoyennes, citoyens de l’Impasse des Miaulements, sauvez autant de chats que possible avant l’arrivée de Vesh Darkhand et ses armées.",
+            "Explorez l’île, récupérez des trésors anciens et bien entendu sauvez un maximum de chats. Entreposez le tout sur votre rafiot avant de repartir pour l’Impasse des Miaulements. Placez les chats par famille autant que faire se peut, recouvrez les rats et les cartes Trésors et remplissez au mieux les cases de votre bateau et les objectifs des Traditions.",
+            "Vous avez 5 jours pour tenter de remporter la partie. Prenez garde à ne pas rentrer trop bredouille !"
+        ],
+        "joueurs": {
+            "min": 1,
+            "max": 4
+        },
+        "url": "https://luckyduckgames.com/fr/games/61-lile-des-chats",
+        "prix": 74.99,
+        "upc": "752830297388",
+        "images": [
+            "ile-des-chats1.jpg",
+            "ile-des-chats2.jpg",
+            "ile-des-chats3.jpg"
+        ],
+        "suggestions": [
+            2
+        ]
+    },
+    {
+        "id": 2,
+        "titre": "Exploding Kittens",
+        "description": [
+            "Après un énorme succès sur Kickstarter, le jeu d’ambiance déjanté arrive enfin en français. Vous n’aurez dorénavant plus d’excuse pour vous lancer dans la bataille ! Exploding Kittens revisite la célèbre Roulette Russe dans un jeu de cartes où les chatons côtoient d’un peu trop près grenades, missiles nucléaires et torpilles dans un cocktail détonant ! À tour de rôle, les joueurs piochent des cartes du paquet jusqu’à ce qu’un joueur révèle un chaton explosif, provoquant sa mort et sa défaite pour la partie en cours. Les autres cartes permettent aux joueurs de se protéger des déflagrations, de forcer les autres à piocher plus ou à regarder les prochaines cartes avant de remélanger le tout. Le joueur qui a réussi à éviter toutes les explosions remporte la partie !"
+        ],
+        "joueurs": {
+            "min": 2,
+            "max": 5
+        },
+        "url": "https://www.explodingkittens.com/",
+        "prix": 32.99,
+        "upc": "3558380050322",
+        "images": [
+            "exploding-kittens1.jpg",
+            "exploding-kittens2.jpg"
+        ],
+        "suggestions": [
+            1
+        ]
+    },
+    {
+        "id": 3,
+        "titre": "Here to Slay",
+        "description": [
+            "Here to Slay is a 2-6 player turn-based role-playing competitive strategic fantasy card game.",
+            "In this game, you’ll assemble a full party of heroes to slay dangerous monsters while working to avoid the sabotage of your foes. The game also includes items you can equip to your heroes, 1V1 challenge cards, and roll modifiers to tip the odds in your favor.",
+            "The first player to slay three monsters or assemble a full party wins the game!"
+        ],
+        "joueurs": {
+            "min": 2,
+            "max": 6
+        },
+        "url": "https://www.unstablegames.com/collections/here-to-slay",
+        "prix": 20.00,
+        "upc": "0810031360918",
+        "images": [
+            "here-to-slay1.png",
+            "here-to-slay2.png",
+            "here-to-slay3.webp"
+        ],
+        "suggestions": []
+    },
+    {
+        "id": 4,
+        "titre": "Donjon et Dragons : Manuel du joueur",
+        "description": [
+            "Le Manuel Des Joueurs est l’ouvrage de référence pour tout joueur de DUNGEONS & DRAGONS ®. Il contient des règles pour créer et faire évoluer son personnage, définir son historique et ses talents, et gérer l’exploration, les combats, l’équipement, les sorts et plus encore.",
+            "Utilisez ce livre pour concevoir des personnages passionnants appartenant aux classes et races emblématiques de D&D ®.",
+            "DUNGEONS & DRAGONS ® vous emporte dans un monde d’aventure où vous explorerez des ruines antiques et de périlleux donjons. Affrontez des monstres alors que vous cherchez des trésors légendaires et gagnez en expérience et en puissance lors de vos pérégrinations dans les étendues sauvages en compagnie de vos amis.",
+            "Le monde a besoin de héros, répondrez-vous à son appel ?"
+        ],
+        "joueurs": {
+            "min": 2,
+            "max": 10
+        },
+        "editeur": "Wizards of the Coast",
+        "url": "https://dnd.wizards.com/",
+        "prix": 55.00,
+        "upc": "9780786965601",
+        "images": [
+            "dnd-phb.jpg"
+        ],
+        "suggestions": [
+            5
+        ]
+    },
+    {
+        "id": 5,
+        "titre": "Donjon et Dragons : Manuel du maître",
+        "description": [
+            "Vous avez déjà acheté le Manuel des Joueurs pour D&D, mais cela ne vous suffit pas, car vous êtes le maître du donjon et, à ce titre, c'est à vous qu'il revient de créer le monde de jeu dans lequel les personnages de vos amis partiront en aventure.",
+            "Ce livre contient tout ce dont vous avez besoin, depuis les classes de prestige jusqu'aux objets magiques et artefacts. Car en tant que maître du donjon, l'univers de D&D ne doit plus avoir le moindre secret pour vous !"
+        ],
+        "joueurs": {
+            "min": 2,
+            "max": 10
+        },
+        "editeur": "Wizards of the Coast",
+        "url": "https://dnd.wizards.com/",
+        "prix": 65.00,
+        "upc": "9780786967513",
+        "images": [
+            "dnd-dm.jpg"
+        ],
+        "suggestions": [
+            4
+        ]
+    },
+    {
+        "id": 6,
+        "titre": "Century: Golem",
+        "description": [
+            "Des siècles se sont écoulés depuis l'arrivée des premiers humains dans le monde de Caravania. Les légendes ont été transmises d'une génération à l'autre, expliquant le mystère le plus exotiques et rare de Caravania : les cristaux d'âme.",
+            "La légende raconte que les âmes des premiers habitants de la planète étaient si pures qu'après leurs morts, elles étaient conservées sous forme de cristaux fascinants et puissants.  En tenant simplement un cristal d'âme, on pouvait sentir l'essence de la vie rayonner au plus profond de soi-même.  Peu de temps après la découverte du pouvoir des cristaux d'âme, les humains s'en servirent pour construire et activer d'impressionnants golems. Après plusieurs siècles, ces âmes pures sont capables d'insuffler à nouveau la vie.",
+            "Dans cette édition Golem, les  les joueurs incarnent des chefs de caravanes qui parcourent la fameuse route du Golem pour délivrer les cristaux aux confins du monde de Caravania."
+        ],
+        "joueurs": {
+            "min": 2,
+            "max": 5
+        },
+        "editeur": "Plan B Games",
+        "url": "https://planbgames.com/games/century-golem-edition-plan-b-games-emerson-matsuuchi-strategy-hand-building-card-board-game-crystal-trading-anime-manga-art",
+        "prix": 51.00,
+        "upc": "826956400103",
+        "images": [
+            "golems1.jpg",
+            "golems2.jpg",
+            "golems3.jpg"
+        ],
+        "suggestions": []
+    }
+]

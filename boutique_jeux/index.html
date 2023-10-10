@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier jeux</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app" v-cloak>
+        <!-- <a href="#" @click="changerPage('accueil')">Accueil</a> -->
+
+        <div id="accueil" v-if="page_active == 'accueil'">
+            <h1>Liste de jeux</h1>
+
+            <div class="recherche">
+                <input 
+                    type="text" 
+                    v-model="texte_recherche" 
+                    placeholder="Recherche..."
+                    >
+            </div>
+            <div class="filtre-joueurs">
+                <select v-model="joueurs_recherche">
+                    <option value="*" selected>Tous</option>
+                    <option v-for="i of 10" :value="i">{{ i }} joueur{{ (i > 1) ? "s" : "" }}</option>
+                </select>
+            </div>
+            
+            <div class="jeux">
+                <div class="jeu" v-for="jeu of filtrer(jeux)">
+                    <img 
+                        :src="'data/images/' + jeu.images[0]" 
+                        @click="changerPage('jeu-infos', jeu)">
+                    <p class="nom">
+                        {{ jeu.titre }}
+                    </p>
+                    <p class="prix">
+                        {{ jeu.prix.toFixed(2) }}$
+                    </p>
+                    <p class="joueurs">
+                        De {{ jeu.joueurs.min }} à {{ jeu.joueurs.max }} joueurs
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="infos" v-if="page_active == 'jeu-infos'">
+            <h1>Jeu infos : {{ params.titre }}</h1>
+            <div class="carrouzzelle">
+                <img class="principale" :src="'data/images/' + (image_principale_details || params.images[0])" alt="">
+                <div class="miniatures">
+                    <img 
+                        v-for="source of params.images"
+                        :src="'data/images/' + source" 
+                        @click="image_principale_details = source"
+                        >
+                </div>
+            </div>
+            <p class="description" v-for="texte of params.description">
+                {{ texte }}
+            </p>
+            <p>
+                <a :href="params.url" target="_blank">{{ couperUrl(params.url) }}</a>
+            </p>
+            <div>
+                <a href="#" @click="changerPage('accueil')">Retour</a>
+            </div>
+        </div>
+
+        <!-- <div id="projet-detail" v-if="page_active == 'projet-detail'">
+            <h1>Détails d'un projet : {{ params.titre }}</h1>
+            <p>{{ params.description }}</p>
+        </div> -->
+    </div>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
